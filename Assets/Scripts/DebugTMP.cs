@@ -15,8 +15,8 @@ public class DebugTMP : MonoBehaviour
 
     public void ResetLog(InputAction.CallbackContext obj)
     {
-        msgString = ""; 
-        Debug.Log("Reset The Log");
+        //msgString = ""; 
+        //Debug.Log("Reset The Log");
     }
 
     public string msgString = "";

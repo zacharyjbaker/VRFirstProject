@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Waypoint
+  - Damage
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Teleportation
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 

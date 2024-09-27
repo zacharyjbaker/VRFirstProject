@@ -5,6 +5,6 @@ using UnityEngine;
 public class LogOnHit : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other) {
-        Debug.Log("Colliding with " + other.gameObject.name);
+        //Debug.Log("Colliding with " + other.gameObject.name);
     }
 }
