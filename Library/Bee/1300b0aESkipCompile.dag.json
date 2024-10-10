@@ -24,14 +24,17 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies\" -s=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.Unsafe.dll\" -a=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/zacharybaker/VRTestProj/Library/ScriptAssemblies\" -s=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17\" -s=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen\" -s=\"/Users/zacharybaker/VRTestProj/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -52,6 +55,11 @@
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
         "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.Unsafe.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
       ],
       "Outputs": [
@@ -192,10 +200,31 @@
       "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
     },
     {
+      "File": "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.Unsafe.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
@@ -205,6 +234,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"

@@ -64,13 +64,15 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/DebugTMP.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
-    <Compile Include="Assets/Scripts/TimeModulate.cs" />
-    <Compile Include="Assets/Scripts/Target.cs" />
     <Compile Include="Assets/Scripts/PlayerShoot.cs" />
     <Compile Include="Assets/Scripts/RaycastToTarget.cs" />
     <Compile Include="Assets/Scripts/LogOnHit.cs" />
+    <Compile Include="Assets/Scripts/DebugTMP.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
+    <Compile Include="Assets/Scripts/TimeModulate.cs" />
+    <Compile Include="Assets/Scripts/Target.cs" />
+    <Compile Include="Assets/Scripts/GameStart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -936,8 +938,16 @@
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -972,6 +982,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
@@ -980,8 +994,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
@@ -1008,8 +1030,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
@@ -1020,12 +1050,20 @@
       <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
@@ -1038,6 +1076,10 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">

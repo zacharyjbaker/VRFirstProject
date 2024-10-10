@@ -17,7 +17,7 @@ public class TimeModulate : MonoBehaviour {
 		// Your code to check what the time scale should be ;)
 		// Time.timeScale = 0.5f; // <- This will make the game move at half speed
 		lastPos = rightHandRef.transform.position;
-		Debug.Log(Time.timeScale);
+		//Debug.Log(Time.timeScale);
 		if (distance <= 0.002) {
 			if (Time.timeScale >= 0.50f) {Time.timeScale -= 0.07f;}
 			else if (Time.timeScale >= 0.05f) {Time.timeScale -= 0.03f;}

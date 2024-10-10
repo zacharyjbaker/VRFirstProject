@@ -13,13 +13,19 @@ public class Target : MonoBehaviour
     [SerializeField] private int focus = 0;
     [SerializeField] private GameObject playerTarget;
 
+    [SerializeField] private int health = 1;
+
     [SerializeField]
     private GameObject BulletTemplate;
     public float shootPower = 500f;
     public float targetTime = 3f;
 
+    public AudioSource audioSource;
+
     [SerializeField] private bool shoota;
     [SerializeField] private bool stabba;
+    [SerializeField] private bool pulla;
+    [SerializeField] private bool rida;
 
     [SerializeField] private GameObject leftLeg;
     [SerializeField] private GameObject rightLeg;
@@ -53,7 +59,9 @@ public class Target : MonoBehaviour
     void Update()
     {
         //Debug.Log(Time.timeScale);
-        StickToGround();
+        if (rida == false) {
+            StickToGround();
+        }
         var step = speed * Time.deltaTime;
         if (playerTarget != null) {
 		    transform.LookAt(playerTarget.transform.position);
@@ -63,8 +71,15 @@ public class Target : MonoBehaviour
             else if (stabba == true) {
                 transform.position = Vector3.MoveTowards(transform.position, playerTarget.transform.position, step);
             }
-            leftLeg.transform.rotation = Quaternion.Lerp(defaultLeftQuat, forwardLeftQuat, Mathf.PingPong(Time.time,1));
-            rightLeg.transform.rotation = Quaternion.Lerp(defaultRightQuat, forwardRightQuat, Mathf.PingPong(Time.time,1));
+            else if (pulla == true) {
+                transform.position = Vector3.MoveTowards(transform.position, playerTarget.transform.position, step);
+                transform.position = Vector3.MoveTowards(transform.position, strafeDir * 3f, step);
+                //transform.LookAt(playerTarget.transform.position + strafeDir * 3f);
+            }
+            if (rida == false) {
+                leftLeg.transform.rotation = Quaternion.Lerp(defaultLeftQuat, forwardLeftQuat, Mathf.PingPong(Time.time,1));
+                rightLeg.transform.rotation = Quaternion.Lerp(defaultRightQuat, forwardRightQuat, Mathf.PingPong(Time.time,1));
+            }
         }
 
         targetTime -= Time.deltaTime;
@@ -73,6 +88,12 @@ public class Target : MonoBehaviour
         {
             if (shoota == true){
                 Shoot();
+                strafeDir = -transform.right;
+            }
+            else if (rida == true){
+                Shoot();
+            }
+            else if (pulla == true){
                 strafeDir = -transform.right;
             }
             targetTime = 3f;
@@ -101,8 +122,13 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         
         if (other.tag == "Bullet"){
-            Destroy(other);
-            Destroy(gameObject);
+            if (health <= 1) {
+                Destroy(other);
+                Destroy(gameObject);
+            }
+            else {
+                health = health - 1;
+            }
         }
         else if (other.tag == "Player"){
             Destroy(other);
@@ -112,6 +138,7 @@ public class Target : MonoBehaviour
     private void Shoot() {
         GameObject newBullet = Instantiate(BulletTemplate, transform.GetChild(0).transform.position + transform.GetChild(0).transform.forward * 0.3f, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
+        audioSource.PlayOneShot(audioSource.clip);
     }
 
     private void StickToGround() {

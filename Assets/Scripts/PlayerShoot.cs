@@ -11,6 +11,8 @@ public class PlayerShoot : MonoBehaviour
 
     public InputActionReference trigger;
 
+    public AudioSource audioSource;
+
     void Start()
     {
         trigger.action.performed += Shoot;
@@ -27,7 +29,8 @@ public class PlayerShoot : MonoBehaviour
     }*/
 
     void Shoot(InputAction.CallbackContext __) {
-        GameObject newBullet = Instantiate(BulletTemplate, transform.position += transform.forward * 0.3f, transform.rotation);
+        GameObject newBullet = Instantiate(BulletTemplate, transform.position += transform.forward * 0.8f, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
+        audioSource.PlayOneShot(audioSource.clip);
     }
 }

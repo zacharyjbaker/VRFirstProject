@@ -7,6 +7,7 @@ TagManager:
   - Waypoint
   - Damage
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
